@@ -1,0 +1,151 @@
+/* thẻ thuộc tính */
+.text-center{
+    text-align: center;
+}
+.img-size{
+    width: 100%;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left:40%;
+}
+.text-white{
+    color:white;
+}
+a{
+    color:#ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color:#ff4757;
+}
+.btn{
+    padding:1%;
+    border:none;
+    font-size: 15px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color:white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color:#ff4757;
+    transform: scale(1.1);
+}
+/* css for html*/
+.header{
+    height: 100px;
+}
+.logo{
+    width: 15%;
+    float: left;
+    height: 100%;
+}
+.list-choice{
+    width: 60%;
+    float: right;
+    height: 100%;
+    padding-top: 15px;
+    text-align: right;
+    font-size: 16px;
+}
+.list-choice ul{
+    list-style-type: none;
+}
+.list-choice li{
+    text-decoration: none;
+    display: inline;
+}
+.list-choice a{
+    color:#ff6bb0;
+    padding:10px;
+    font-weight: 700;
+}
+.list-choice a:hover{
+    text-decoration: none;
+    color: #ff6b6b;;
+}
+.food-search{
+    background-image: url(../img/111/bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    padding: 7% 0; 
+}
+.food-search form{
+    text-align: center;
+}
+.food-search input[type ="search"]{
+    width: 40%;
+    padding:10px;
+    font-size: 30;
+    border-radius:20px;
+}
+.food-menu{
+    background-color: #ececec;
+}
+.food-box{
+    width: 44%;
+    margin:1%;
+    padding:4%;
+    float:left;
+    background-color: white;
+    margin-left: 45px;
+    border-radius: 3%;
+    height:200px;
+}
+
+.food-menu-img{
+    width: 23%;
+    float:left;
+    
+}
+.food-menu-img:hover{
+    transform: scale(1.1);
+}
+.desc{
+    width:70%;
+    float:right;
+    line-height: 0.9;
+}
+.desc h3{
+    font-weight: 700;
+    font-size:25px;
+}
+.f-price{
+    font-weight: 500;
+}
+.bottom-title{
+    color:#ff6b81;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.bottom-title a {
+    text-decoration: none;
+}
+.links{
+    margin-top:20px;    
+}
+.icon-group{
+    text-align: center;
+    padding-left:30px;
+    
+}
+.icon-group a{
+    text-decoration: none;
+}
+.icon-group img:hover{
+    transform: scale(1.1);
+}
+.footer-title{
+    margin-top: 30px;
+}

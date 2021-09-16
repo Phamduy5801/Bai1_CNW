@@ -1,0 +1,155 @@
+/* thẻ thuộc tính */
+.text-center{
+    text-align: center;
+}
+.img-size{
+    width: 100%;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    background-color:#47b4d1;
+   position: absolute;
+   top:-13px;
+   left:40px;
+   z-index: 1;
+   font-size: 14px;
+   font-weight: 400;
+}
+.text-white{
+    color:white;
+}
+a{
+    color:#ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color:#ff4757;
+}
+.btn{
+    padding:1%;
+    border:none;
+    font-size: 15px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color:white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color:#ff4757;
+    transform: scale(1.1);
+}
+/* css for html*/
+.header{
+    height: 100px;
+}
+.logo{
+    width: 15%;
+    float: left;
+    height: 100%;
+}
+.list-choice{
+    width: 60%;
+    float: right;
+    height: 100%;
+    padding-top: 15px;
+    text-align: right;
+    font-size: 16px;
+}
+.list-choice ul{
+    list-style-type: none;
+}
+.list-choice li{
+    text-decoration: none;
+    display: inline;
+}
+.list-choice a{
+    color:#ff6bb0;
+    padding:10px;
+    font-weight: 700;
+}
+.list-choice a:hover{
+    text-decoration: none;
+    color: #ff6b6b;;
+}
+#title{
+    padding:20px;
+    color:white;
+}
+.content-form{
+    background-image: url(../img/111/bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 700px;
+}
+.form-info1{
+    border:1px solid white;
+    width: 450px;
+    margin-left: 310px;
+    border-radius: 5%;
+    margin-bottom: 15px;
+    height: 150px;
+}
+ .sled-img{
+    margin-top:15px;
+    margin-left:20px;
+     width: 100px;
+     float:left;
+ }
+ .sled-img:hover{
+     transform: scale(1.1);
+ }
+ .sled-desc{
+    float:left;
+    width:200px ;
+    margin-left: 20px;
+    margin-top:15px;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 13px;
+ }
+ .f-price{
+     font-weight: 500;
+ }
+ .form-info2{
+    border:1px solid white;
+    width: 450px;
+    margin-left: 310px;
+    border-radius: 5%;
+    margin-bottom: 15px;
+    height: 400px;
+}
+.f{
+    margin-left:20px;
+    margin-top:15px;
+
+}
+#quantity{
+    border-radius: 2%;
+}
+input{
+    width:90%; 
+}
+.links{
+    margin-top:20px;    
+}
+.icon-group{
+    text-align: center;
+    padding-left:30px;   
+}
+.icon-group a{
+    text-decoration: none;
+}
+.icon-group img:hover{
+    transform: scale(1.1);
+}
+.footer-title{
+    margin-top: 30px;
+}
