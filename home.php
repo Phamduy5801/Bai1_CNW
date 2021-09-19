@@ -137,7 +137,7 @@
         </div>
         <div class="clearfix"></div>
         <div class ="bottom-title text-center">
-            <a href="form-order.php">See all foods</a>
+            <a href="food-menu.php">See all foods</a>
         </div>
     </div>
 </section>

@@ -53,7 +53,7 @@
                 <label>Email:</label><br>
                 <input type="email" value="Enter your email"><br>
                 <label>Address:</label><br>
-                <textarea rows="4" cols="50" name="text-area" value="">Enter your address</textarea><br>
+                <textarea rows="4" cols="46" name="text-area">Enter your address</textarea><br>
                 <a href="#" type="submit" class="btn btn-primary">Confirm order</a>
                 </form> 
             </div>
