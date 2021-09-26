@@ -5,6 +5,9 @@
 .img-size{
     width: 100%;
 }
+.float-right{
+    text-align: right;
+}
 .clearfix{
     clear: both;
     float: none;
@@ -45,7 +48,11 @@ a:hover{
     background-color:#ff4757;
     transform: scale(1.1);
 }
-/* css for html*/
+.no-margin{
+    padding-left:0;
+    padding-right:0;
+}
+/* css for header*/
 .header{
     height: 100px;
 }
@@ -69,15 +76,16 @@ a:hover{
     text-decoration: none;
     display: inline;
 }
-.list-choice a{
-    color:#ff6bb0;
+.item-group .nav-link{
+    color:#ff6bb0 !important;
     padding:10px;
     font-weight: 700;
 }
-.list-choice a:hover{
+.item-group .nav-link:hover{
     text-decoration: none;
-    color: #ff6b6b;;
+    color: #ff6b6b !important;
 }
+/*css for category*/
 #title{
     padding:20px;
     color:white;

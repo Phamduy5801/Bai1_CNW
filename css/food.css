@@ -5,6 +5,9 @@
 .img-size{
     width: 100%;
 }
+.float-right{
+    text-align: right;
+}
 .clearfix{
     clear: both;
     float: none;
@@ -41,6 +44,10 @@ a:hover{
     background-color:#ff4757;
     transform: scale(1.1);
 }
+.no-margin{
+    padding-left:0;
+    padding-right:0;
+}
 /* css for html*/
 .header{
     height: 100px;
@@ -65,14 +72,14 @@ a:hover{
     text-decoration: none;
     display: inline;
 }
-.list-choice a{
-    color:#ff6bb0;
+.item-group .nav-link{
+    color:#ff6bb0 !important;
     padding:10px;
     font-weight: 700;
 }
-.list-choice a:hover{
+.item-group .nav-link:hover{
     text-decoration: none;
-    color: #ff6b6b;;
+    color: #ff6b6b !important;
 }
 .food-search{
     background-image: url(../img/111/bg.jpg);
@@ -94,7 +101,6 @@ a:hover{
     background-color: #ececec;
 }
 .food-box{
-    width: 44%;
     margin:1%;
     padding:4%;
     float:left;

@@ -1,0 +1,49 @@
+/*css for all tag*/
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+a{
+    color:#ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color:#ff4757;
+}
+.text-center{
+    text-align: center;
+}
+/*css for header*/
+.menu-admin{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*css for section*/
+.main{
+    width: 100%;
+    margin:2%;
+}
+
+.bt-add{
+    margin-bottom:15px;
+}
+/*css for footer*/
+.footer{
+    
+    background-color: #ff6b81;
+    text-align: center;
+}
+.action-group{
+    float: left;
+}
+.footer p{
+    color: white;
+    margin-top: 10px;
+}
+.footer p a{
+    color:yellow;
+    text-decoration: none;
+}
